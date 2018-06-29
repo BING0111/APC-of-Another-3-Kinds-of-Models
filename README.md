@@ -1,7 +1,7 @@
-# APC-of-Another-3-Kinds-of-Models
+# APC-for-Another-3-Kinds-of-Models
 based on predcomps package https://github.com/dchudz/predcomps
 
-description of data
+## description of data
 
 y: a certain health outcome
 
