@@ -15,7 +15,7 @@ m1 <- gam(y ~ x1 + as.factor(x6) + ns(day, df = df.day) + ns(x5, df = df.x5), fa
 summary(m1)
 
 # relative risk of y per 1 unit change in x1
-RR1 <- exp(coef(f1)[2] * 1)
+RR1 <- exp(coef(m1)[2] * 1)
 
 # APC 
 ## 1. get pairs
